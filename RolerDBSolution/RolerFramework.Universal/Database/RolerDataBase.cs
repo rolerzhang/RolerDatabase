@@ -171,7 +171,10 @@ namespace RolerFramework.Database
         {
             foreach (var tableKey in this._tables.Keys)
             {
-                await SaveTableToFile(tableKey);
+                if (this._tables[tableKey].IsInitialied)
+                {
+                    await SaveTableToFile(tableKey);
+                }
             }
         }
 
