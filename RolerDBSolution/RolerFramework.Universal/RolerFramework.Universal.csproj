@@ -43,7 +43,7 @@
   <ItemGroup>
     <Compile Include="Database\ITable .cs" />
     <Compile Include="Database\ITableGeneric.cs" />
-    <Compile Include="Database\RolerDataBase.cs" />
+    <Compile Include="Database\RolerDatabase.cs" />
     <Compile Include="Database\SerializationHelper.cs" />
     <Compile Include="Database\TableGeneric.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
